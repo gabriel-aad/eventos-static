@@ -1,0 +1,62 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 90%;
+}
+
+.site-header{
+    z-index: 1;
+    display: flex;
+    position: sticky;
+    padding: 0 25px;
+    top: 0;
+    right: 0;
+    left: 0;
+    color: #fff;
+    background-color: #0030b5;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.evento{
+    padding: 0 12px 35px;
+    margin: 15px;
+    background-color: #f4f4f4;
+    border: 1px solid #dadada;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.evento-header{
+    margin-top: 20px;
+    line-height: 10px;
+}
+
+.foto-evento{
+    margin: 10px 15px 5px 0;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    float: left;
+    clear: both;
+    border: none;
+    border-radius: 5px;
+}
+
+.site-externo{
+    position: absolute;
+    display: inline;
+    float: left;
+    clear: both;
+}
+
+.site-externo a{
+    text-decoration: none;
+}
+
+.site-externo a img{
+    width: 25px;
+    margin: 0 1px;
+    border: none;
+    border-radius: 20%;
+}
